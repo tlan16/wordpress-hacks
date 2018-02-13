@@ -17,7 +17,7 @@ data = """<?xml version="1.0" encoding="iso-8859-1"?><!DOCTYPE lolz [
   </params>
 </methodCall>"""
 data = str.encode(data)
-req = urllib.request.Request('http://iconey.com/xmlrpc.php', data)
+req = urllib.request.Request('http://wenbo.tv/xmlrpc.php', data)
 req.add_header('Accept', '*/*')
 req.add_header(
     'User-Agent', 'Mozilla/5.0 (Wihndows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0')
