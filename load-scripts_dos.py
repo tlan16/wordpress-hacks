@@ -28,7 +28,7 @@ class MyThread(threading.Thread):
 
 
 if __name__ == '__main__':
-    for x in range(1):                                     # five times...
+    for x in range(10000):                                     # five times...
         # ...Instantiate a thread and pass a unique ID to it
         mythread = MyThread(name="Thread-{}".format(x + 1))
         mythread.start()                                   # ...Start the thread
