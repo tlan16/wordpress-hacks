@@ -27,7 +27,7 @@ import (
 const acceptCharset = "ISO-8859-1,utf-8;q=0.7,*;q=0.7"
 
 const (
-	callGotOk uint8 = iota
+	callGotOk              uint8 = iota
 	callExitOnErr
 	callExitOnTooManyFiles
 	targetComplete
