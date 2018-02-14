@@ -28,9 +28,11 @@ class MyThread(threading.Thread):
 
 
 if __name__ == '__main__':
+    x = 1
     while True:
         # ...Instantiate a thread and pass a unique ID to it
         mythread = MyThread(name="Thread-{}".format(x + 1))
         mythread.start()  # ...Start the thread
         # ...Wait 0.9 seconds before starting another
         time.sleep(.1)
+        x += 1
