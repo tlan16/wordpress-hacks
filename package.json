@@ -1,0 +1,23 @@
+{
+  "name": "wordpress-hacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "load-scripts_dos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlan16/wordpress-hacks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlan16/wordpress-hacks/issues"
+  },
+  "homepage": "https://github.com/tlan16/wordpress-hacks#readme",
+  "dependencies": {
+    "filesize": "^3.5.11",
+    "moment": "^2.19.4"
+  }
+}
